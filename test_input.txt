@@ -1,0 +1,11 @@
+We used a recurrent neural network as a fitness function for
+a genetic algorithm to generate monophonic solos. The genetic algorithm is based on GenJam as described in Biles.
+We conducted training sessions with human participants in order to compare and quantify some of the differences between human-feedback and RNN fitness functions.
+We found that the RNNs can effectively play the role of human fitness feedback, but still suffer in many areas. Our results suggest that certain types of recurrent neural networks
+can address the issues with human feedback, and thus should
+be explored in future research.
+There have been many approaches to automatic composition
+that combine AI techniques. Often these systems contain a
+generative component and an optimizing component. Techniques for the generative component include genetic algorithms, feed-forward neural networks,
+and grammars. The optimizing component could be gradient descent for neural network generators, more
+genetic algorithms, human input, or variable neighborhood search .
